@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="Vanilla_Newbie">
+        <item label="🚀 Launcher (Wofi)">
+            <action name="Execute" command="wofi --show drun" />
+        </item>
+        <separator />
+        <item label="💻 Terminale">
+            <action name="Execute" command="alacritty" />
+        </item>
+        <item label="🦊 Firefox">
+            <action name="Execute" command="firefox" />
+        </item>
+        <item label="📁 File Manager">
+            <action name="Execute" command="thunar" />
+        </item>
+        <separator />
+        <item label="⚙️ Ricarica Configurazione">
+            <action name="Reconfigure" />
+        </item>
+        <item label="🚪 Esci">
+            <action name="Exit" />
+        </item>
+    </menu>
+</openbox_menu>

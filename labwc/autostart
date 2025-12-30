@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Uccidi eventuali istanze precedenti
+killall -9 swaybg waybar 2>/dev/null
+
+# Wallpaper (Usa il percorso assoluto della tua home)
+swaybg -i "$HOME/Pictures/vanilla_wallpaper.png" -m fill &
+
+# Waybar tramite lo script (Assicurati che il percorso sia corretto)
+bash "$HOME/.config/labwc/scripts/launch-waybar.sh" &
