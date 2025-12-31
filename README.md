@@ -33,7 +33,7 @@ Questa è la via più semplice. Lo script si occuperà di creare le cartelle, co
 
 1.  **Scarica il progetto:**
     ```bash
-    git clone [https://github.com/EnthusiastNewbie/Vanilla_Newbie.git](https://github.com/EnthusiastNewbie/Vanilla_Newbie.git)
+    git clone [https://github.com/EnthusiastNewbie/Vanilla_Newbie_Theme_Labwc.git](https://github.com/EnthusiastNewbie/Vanilla_Newbie_Theme_Labwc.git)
     cd Vanilla_Newbie
     ```
 2.  **Rendi lo script eseguibile:**
